@@ -13,4 +13,10 @@ function changeSizeOfCircle() {
 
     circle.style["background-color"] = "rgb(" + red + ", " + green + ", " + blue + ")";
     circle.style["border-color"] = "rgb(" + red + ", " + green + ", " + blue + ")";
+    
+    let redForFont = parseInt(Math.random() * 256);
+    let greenForFont = parseInt(Math.random() * 256);
+    let blueForFont = parseInt(Math.random() * 256);
+    
+      circle.style["text-color"] = "rgb(" + redForFont + ", " + greenForFont + ", " + blueForFont + ")";
 }
